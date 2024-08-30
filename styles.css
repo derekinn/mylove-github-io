@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #9032bb; 
+    transition: background-image 0.5s ease-in-out; /* Adiciona uma transição suave para a troca de imagem */
+}
+
+#pergunta {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.botao {
+    padding: 10px 20px;
+    border: 2px solid black;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#nao {
+    position: absolute;
+    transform: translateZ(0);
+}
+
+#resposta {
+    margin-top: 20px;
+    display: none;
+}
